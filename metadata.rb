@@ -9,6 +9,6 @@ version '0.1.0'
 issues_url 'https://github.com/inviqa/chef-certbot/issues'
 source_url 'https://github.com/inviqa/chef-certbot'
 
-depends 'nginx', '< 3'
+depends 'nginx', '~> 2.7.6'
 depends 'cron'
 depends 'yum-epel'
